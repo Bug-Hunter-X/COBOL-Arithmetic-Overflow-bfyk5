@@ -1,0 +1,1 @@
+This example demonstrates a common error in COBOL programs: arithmetic overflow. The program attempts to add two numeric fields, WS-AREA-1 and WS-AREA-2, but if their sum exceeds the capacity of WS-AREA-2, it results in an overflow and a runtime error.  The solution shows how to handle this error using the ON SIZE ERROR phrase.
